@@ -1,0 +1,5 @@
+2021-11-08 11:38:22,314 WARN [main] c.n.c.LoggerTests [LoggerTests.java:29] warn log
+2021-11-08 14:28:14,771 WARN [main] c.n.c.LoggerTests [LoggerTests.java:29] warn log
+2021-11-08 14:31:47,679 WARN [main] c.n.c.LoggerTests [LoggerTests.java:29] warn log
+2021-11-08 14:34:31,834 WARN [main] c.n.c.LoggerTests [LoggerTests.java:29] warn log
+2021-11-08 14:42:21,860 WARN [main] c.n.c.LoggerTests [LoggerTests.java:29] warn log

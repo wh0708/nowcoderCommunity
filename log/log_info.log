@@ -1,0 +1,25 @@
+2021-11-08 11:38:19,732 INFO [main] c.n.c.LoggerTests [StartupInfoLogger.java:55] Starting LoggerTests using Java 14.0.2 on LAPTOP-UM0T7HRT with PID 32384 (started by WH in D:\IDEA_project\community)
+2021-11-08 11:38:19,734 INFO [main] c.n.c.LoggerTests [SpringApplication.java:659] No active profile set, falling back to default profiles: default
+2021-11-08 11:38:21,567 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2021-11-08 11:38:21,868 INFO [main] c.n.c.LoggerTests [StartupInfoLogger.java:61] Started LoggerTests in 2.647 seconds (JVM running for 3.432)
+2021-11-08 11:38:22,306 INFO [main] c.n.c.LoggerTests [LoggerTests.java:28] info log
+2021-11-08 14:28:12,151 INFO [main] c.n.c.LoggerTests [StartupInfoLogger.java:55] Starting LoggerTests using Java 14.0.2 on LAPTOP-UM0T7HRT with PID 24648 (started by WH in D:\IDEA_project\community)
+2021-11-08 14:28:12,154 INFO [main] c.n.c.LoggerTests [SpringApplication.java:659] No active profile set, falling back to default profiles: default
+2021-11-08 14:28:13,994 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2021-11-08 14:28:14,306 INFO [main] c.n.c.LoggerTests [StartupInfoLogger.java:61] Started LoggerTests in 2.636 seconds (JVM running for 3.453)
+2021-11-08 14:28:14,771 INFO [main] c.n.c.LoggerTests [LoggerTests.java:28] info log
+2021-11-08 14:31:45,304 INFO [main] c.n.c.LoggerTests [StartupInfoLogger.java:55] Starting LoggerTests using Java 14.0.2 on LAPTOP-UM0T7HRT with PID 31036 (started by WH in D:\IDEA_project\community)
+2021-11-08 14:31:45,306 INFO [main] c.n.c.LoggerTests [SpringApplication.java:659] No active profile set, falling back to default profiles: default
+2021-11-08 14:31:46,987 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2021-11-08 14:31:47,281 INFO [main] c.n.c.LoggerTests [StartupInfoLogger.java:61] Started LoggerTests in 2.441 seconds (JVM running for 3.205)
+2021-11-08 14:31:47,679 INFO [main] c.n.c.LoggerTests [LoggerTests.java:28] info log
+2021-11-08 14:34:29,462 INFO [main] c.n.c.LoggerTests [StartupInfoLogger.java:55] Starting LoggerTests using Java 14.0.2 on LAPTOP-UM0T7HRT with PID 18204 (started by WH in D:\IDEA_project\community)
+2021-11-08 14:34:29,464 INFO [main] c.n.c.LoggerTests [SpringApplication.java:659] No active profile set, falling back to default profiles: default
+2021-11-08 14:34:31,125 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2021-11-08 14:34:31,406 INFO [main] c.n.c.LoggerTests [StartupInfoLogger.java:61] Started LoggerTests in 2.412 seconds (JVM running for 3.129)
+2021-11-08 14:34:31,834 INFO [main] c.n.c.LoggerTests [LoggerTests.java:28] info log
+2021-11-08 14:42:19,465 INFO [main] c.n.c.LoggerTests [StartupInfoLogger.java:55] Starting LoggerTests using Java 14.0.2 on LAPTOP-UM0T7HRT with PID 36824 (started by WH in D:\IDEA_project\community)
+2021-11-08 14:42:19,467 INFO [main] c.n.c.LoggerTests [SpringApplication.java:659] No active profile set, falling back to default profiles: default
+2021-11-08 14:42:21,151 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2021-11-08 14:42:21,454 INFO [main] c.n.c.LoggerTests [StartupInfoLogger.java:61] Started LoggerTests in 2.452 seconds (JVM running for 3.248)
+2021-11-08 14:42:21,860 INFO [main] c.n.c.LoggerTests [LoggerTests.java:28] info log
