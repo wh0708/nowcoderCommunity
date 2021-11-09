@@ -1,5 +1,6 @@
-2021-11-08 11:38:22,314 WARN [main] c.n.c.LoggerTests [LoggerTests.java:29] warn log
-2021-11-08 14:28:14,771 WARN [main] c.n.c.LoggerTests [LoggerTests.java:29] warn log
-2021-11-08 14:31:47,679 WARN [main] c.n.c.LoggerTests [LoggerTests.java:29] warn log
-2021-11-08 14:34:31,834 WARN [main] c.n.c.LoggerTests [LoggerTests.java:29] warn log
-2021-11-08 14:42:21,860 WARN [main] c.n.c.LoggerTests [LoggerTests.java:29] warn log
+2021-11-09 01:48:03,847 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h28s25ms638µs600ns).
+2021-11-09 12:54:40,507 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11h6m39s666ms601µs400ns).
+2021-11-09 14:41:16,683 WARN [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:591] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'alphaController' method 
+com.nowcoder.community.controller.AlphaController#setCookie(HttpServletResponse)
+to {GET [/alpha/cookie/set]}: There is already 'alphaController' bean method
+com.nowcoder.community.controller.AlphaController#getCookie(String) mapped.
