@@ -13,6 +13,9 @@ import java.util.List;
 @Mapper
 public interface DiscussPostMapper {
     List<DiscussPost> selectDiscussPosts(int userId,int offset,int limit);
+
     //动态拼接条件，方法有且只有一个条件时，需要用@Param注解给参数取别名，也可以在属性名太长的时候取别名来简化
     int selectDiscussPostRows(@Param("userId") int userId);
+
+    int insertDiscussPost(DiscussPost discussPost);
 }
