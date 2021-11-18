@@ -17,6 +17,13 @@
         values (#{userId},#{title},#{content},#{type},#{status},#{createTime},#{commentCount},#{score})
     </insert>
 
+    <select id="selectDiscussPostById" resultType="DiscussPost">
+        select
+        <include refid="selectFields"></include>
+        from discuss_post
+        where id = #{id}
+    </select>
+
 <!--这里resultType需要把不能识别的添加上，比如自己定义的类-->
     <select id="selectDiscussPosts" resultType="DiscussPost">
         select <include refid="selectFields"></include>
