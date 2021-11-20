@@ -8,6 +8,24 @@
         id,from_id,to_id,conversation_id,content,status,create_time
     </sql>
 
+    <sql id="insertFields">
+        from_id,to_id,conversation_id,content,status,create_time
+    </sql>
+    <insert id="insertMessage" parameterType="Message" keyProperty="id">
+        insert into message(<include refid="insertFields"></include>)
+        values(#{fromId},#{toId},#{conversationId},#{content},#{status},#{createTime})
+    </insert>
+
+    <update id="updateStatus">
+        update message set status = #{status}
+        where id in
+        <foreach collection="ids" item="id" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+
+    </update>
+
+
 <!--    //status=2为已删除，from_id=1是系统通知-->
 <!--    //按照对话id进行分组，查出每个组里最大的id，那就是最新的私信-->
     <select id="selectConversations" resultType="Message">
