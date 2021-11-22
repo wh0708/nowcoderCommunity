@@ -1,0 +1,9 @@
+2021-11-08 11:28:46.588  INFO 36980 --- [main] com.nowcoder.community.LoggerTests       : Starting LoggerTests using Java 14.0.2 on LAPTOP-UM0T7HRT with PID 36980 (started by WH in D:\IDEA_project\community)
+2021-11-08 11:28:46.590 DEBUG 36980 --- [main] com.nowcoder.community.LoggerTests       : Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-08 11:28:46.592  INFO 36980 --- [main] com.nowcoder.community.LoggerTests       : No active profile set, falling back to default profiles: default
+2021-11-08 11:28:48.463  INFO 36980 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-08 11:28:48.806  INFO 36980 --- [main] com.nowcoder.community.LoggerTests       : Started LoggerTests in 2.612 seconds (JVM running for 3.416)
+2021-11-08 11:28:49.281 DEBUG 36980 --- [main] com.nowcoder.community.LoggerTests       : debug log
+2021-11-08 11:28:49.281  INFO 36980 --- [main] com.nowcoder.community.LoggerTests       : info log
+2021-11-08 11:28:49.281  WARN 36980 --- [main] com.nowcoder.community.LoggerTests       : warn log
+2021-11-08 11:28:49.281 ERROR 36980 --- [main] com.nowcoder.community.LoggerTests       : error log
